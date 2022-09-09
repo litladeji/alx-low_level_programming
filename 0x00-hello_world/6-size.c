@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - Print the sizeof many var types
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
 	char a;
 	int b;
