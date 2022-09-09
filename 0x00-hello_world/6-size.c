@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the sizeof many var types
+ * main - Print the sizeof many var types
  *
  * Return: Always 0 (Success)
  */
@@ -11,16 +11,17 @@ int main(void)
 	int b;
 	long int c;
 	long long int d;
-	float e;
+	float f;
 
-
-	printf("size of a char: %d byte(s)\n", sizeof(a));
-	printf("size of an int: %d byte(s)\n", sizeof(b));
-	printf("size of a long int: %d byte(s)\n", sizeof(c));
-	printf("size of a long long int: %d byte(s)\n", sizeof(d));
-	printf("size of a float: %d byte(s)\n", sizeof(e));
+	printf("Size of a char: %ld byte(s)\n", sizeof(a));
+	printf("Size of an int: %ld byte(s)\n", sizeof(b));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(c));
+	printf("Size of an long long int: %ld byte(s)\n", sizeof(d));
+	printf("Size of an float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
+
+	
 		
 
 	
